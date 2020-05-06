@@ -1,12 +1,12 @@
 ## 创建SpringBoot项目
 
-![屏幕快照 2020-05-06 下午9.10.35](/Users/ouyangzicheng/Desktop/屏幕快照 2020-05-06 下午9.10.35.png)
+![1](image/1.png)
 
-![屏幕快照 2020-05-06 下午9.11.39](/Users/ouyangzicheng/Desktop/屏幕快照 2020-05-06 下午9.11.39.png)
+![2](image/2.png)
 
-![屏幕快照 2020-05-06 下午9.12.08](/Users/ouyangzicheng/Desktop/屏幕快照 2020-05-06 下午9.12.08.png)
+![3](image/3.png)
 
-![屏幕快照 2020-05-06 下午9.12.44](/Users/ouyangzicheng/Desktop/屏幕快照 2020-05-06 下午9.12.44.png)
+![4](image/4.png)
 
 创建一个Controller类
 
