@@ -1,11 +1,7 @@
 package com.oyzc.luckmoney;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.math.BigDecimal;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @ClassName HelloController
@@ -24,8 +20,8 @@ public class HelloController {
         this.limitConfig = limitConfig;
     }
 
-    @GetMapping("/hello")
-    public String say() {
-        return "说明:" + limitConfig.getDescription();
+    @PostMapping("/hello")
+    public String say(@RequestParam(value = "id", required = false, defaultValue = "0") Integer id) {
+        return "id：" + id;
     }
 }
