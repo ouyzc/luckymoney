@@ -7,3 +7,14 @@ limit:
   minMoney: 0.01
   maxMoney: 200
   description: 最少发${limit.minMoney}元，最多${limit.maxMoney}元
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/luckymoney
+    username: root
+    password: 12345678
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
